@@ -1,0 +1,17 @@
+{
+  "name": "razorpay-download-node",
+  "version": "1.0.0",
+  "description": "Razorpay secure download system in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "initdb": "node db.js --init"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.1.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "razorpay": "^2.9.4"
+  }
+}
